@@ -1,7 +1,9 @@
 package com.bridgelabz.employeepayroll.dto;
 
 import jakarta.validation.constraints.*;
+import lombok.ToString;
 
+@ToString
 public class PayrollDTO {
     @Pattern(regexp = "^[A-Z][a-zA-Z\\s]{2,}$", message = "Invalid Employee's First name")
     @NotEmpty

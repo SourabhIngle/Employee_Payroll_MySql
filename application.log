@@ -1311,3 +1311,6 @@ java.util.regex.PatternSyntaxException: Unclosed group near index 35
 2023-07-24T15:40:17.636+05:30  WARN 13800 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2023-07-24T15:40:17.890+05:30  WARN 13800 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Warn level
 2023-07-24T15:40:17.890+05:30 ERROR 13800 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Error level
+2023-07-24T19:13:41.635+05:30  WARN 32 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-24T19:13:41.897+05:30  WARN 32 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Warn level
+2023-07-24T19:13:41.898+05:30 ERROR 32 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Error level

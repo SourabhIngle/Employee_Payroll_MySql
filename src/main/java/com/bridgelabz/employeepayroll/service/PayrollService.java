@@ -45,13 +45,4 @@ public class PayrollService implements PayrollServiceInterface {
         getById(id);
         repository.deleteById(id);
     }
-
-    //    @Override
-//    public boolean delete(Integer id) {
-//        if (repository.existsById(id)) {
-//            repository.deleteById(id);
-//            return true;
-//        }
-//          return false;
-//    }
 }

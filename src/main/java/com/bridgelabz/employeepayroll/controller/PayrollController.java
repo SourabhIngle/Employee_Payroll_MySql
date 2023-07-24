@@ -47,13 +47,4 @@ public class PayrollController {
         employeeServiceInterface.delete(id);
         return ResponseEntity.ok("Id " + id + " has been Successfully deleted");
     }
-
-//    @DeleteMapping("/deletebyid/{id}")
-//    public ResponseEntity<String> delete(@PathVariable Integer id) {
-//        boolean deleted = employeeServiceInterface.delete(id);
-//        if (deleted) {
-//            return ResponseEntity.ok("Data with Id " + id + " deleted successfully");
-//        }
-//        return ResponseEntity.ok("Data Id " + id + " Not Found");
-//    }
 }
